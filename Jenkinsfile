@@ -13,7 +13,7 @@ stage ('Artifactory configuration') {
                 rtServer (
                     id: "JFrog",
                     url: http://54.198.234.177:8081/artifactory,
-                    credentialsId: CREDENTIALS
+                    credentialsId: JFROG
                 )
 
                 rtMavenDeployer (
